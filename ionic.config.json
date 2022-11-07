@@ -1,0 +1,7 @@
+{
+  "name": "memories-front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
