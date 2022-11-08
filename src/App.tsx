@@ -23,6 +23,7 @@ import './theme/variables.css';
 import NavBar from './components/NavBar';
 
 
+
 setupIonicReact();
 
 const App: React.FC = () => (
