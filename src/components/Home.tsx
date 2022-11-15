@@ -5,12 +5,11 @@ import Memory from "./Memory";
 const Home:React.FC = () => {
     return (
         <IonContent>
-            <Header/>
-            <IonContent>
+                <Header/>
                 <Memory/>
                 <Memory/>
                 <Memory/>
-            </IonContent>
+            
         </IonContent>
        
     );

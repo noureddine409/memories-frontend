@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 2px;
+}
+
+
+.child-right {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.child-left {
+    display: flex;
+}
+
+
