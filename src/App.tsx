@@ -22,6 +22,9 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import NavBar from './components/NavBar';
 import SearchBar from './components/SearchBar';
+import Input from './components/Input';
+import Login from './components/Login';
+import Register from './components/Register';
 
 
 
@@ -29,11 +32,12 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    {/* <IonReactRouter>
     <IonPage>
       <NavBar/>
     </IonPage>
-    </IonReactRouter>
+    </IonReactRouter> */}
+    <Register></Register>
     
   </IonApp>
 );
